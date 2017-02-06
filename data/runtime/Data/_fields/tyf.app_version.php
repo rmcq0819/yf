@@ -1,0 +1,1 @@
+{"0":"id","1":"version","2":"download_url","3":"new_content","_autoinc":false,"_pk":"id","_type":{"id":"int(11)","version":"varchar(50)","download_url":"varchar(2000)","new_content":"varchar(2000)"}}

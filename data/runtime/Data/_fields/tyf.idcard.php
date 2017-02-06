@@ -1,0 +1,1 @@
+{"0":"Id","1":"uid","2":"c_name","3":"c_id","4":"frontage","5":"opposite","_autoinc":true,"_pk":"Id","_type":{"Id":"int(11)","uid":"int(11)","c_name":"varchar(10)","c_id":"varchar(25)","frontage":"varchar(255)","opposite":"varchar(255)"}}

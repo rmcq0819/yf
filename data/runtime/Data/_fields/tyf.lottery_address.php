@@ -1,0 +1,1 @@
+{"0":"Id","1":"name","2":"phone","3":"province","4":"city","5":"district","6":"address","7":"userId","_autoinc":true,"_pk":"Id","_type":{"Id":"int(11)","name":"varchar(25)","phone":"varchar(11)","province":"varchar(100)","city":"varchar(100)","district":"varchar(100)","address":"varchar(255)","userId":"int(11)"}}

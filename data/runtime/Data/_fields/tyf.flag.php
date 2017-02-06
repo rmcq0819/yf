@@ -1,0 +1,1 @@
+{"0":"Id","1":"name","2":"flag","3":"status","4":"bg_img","5":"ordid","_autoinc":true,"_pk":"Id","_type":{"Id":"int(11)","name":"varchar(20)","flag":"varchar(50)","status":"int(11)","bg_img":"varchar(255)","ordid":"int(11)"}}

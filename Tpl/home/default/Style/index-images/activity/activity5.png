@@ -1,0 +1,43 @@
+<link rel="stylesheet" type="text/css" href="../Style/css/animations.css"/>
+<div data-am-widget="navbar" class="am-navbar am-cf am-navbar" id="" style="background-color:white; box-shadow:20px 20px 40px black;">
+<ul class="am-navbar-nav am-cf am-avg-sm-5">
+	  <li >
+		<a href="{:U('Index/index',array('shares'=>$info['id']))}" class="">
+			<img src="../Style/index-images/home.gif">
+			<span class="am-navbar-label" style="color:rgb(137,137,137);">首页</span>
+		</a>
+	  </li>
+	  <li>
+		<a href="{:U('Item/itemcate',array('shares'=>$info['id']))}" class="">
+			<img src="../Style/index-images/sort.gif" > 
+			<span class="am-navbar-label" style="color:rgb(137,137,137);">分类</span>
+		</a>
+	  </li>
+	  <li class="bottomhome">
+		<a href='https://static.meiqia.com/dist/standalone.html?eid=23554&clientid={$server_u.id}&metadata={"name":"<?php echo $server_u['username']; ?>","tel":"<?php echo $server_u['phone_mob']; ?>","email":"<?php echo $server_u['email']; ?>"}'>
+			<img src="../Style/index-images/erweima.png">
+			<span class="am-navbar-label" style="color:rgb(137,137,137);">客服</span>
+		</a>
+	  </li>
+	  <li>
+		<a href="{:U('Shopcart/index',array('shares'=>$info['id']))}">
+		 <img src="../Style/index-images/shop-car.gif" > 
+			<span class="am-navbar-label" style="color:rgb(137,137,137);">购物车</span>
+		</a>
+	  </li>
+	  <li >
+		<a href="{:U('User/index',array('shares'=>$info['id']))}" class="">
+		 <img src="../Style/index-images/mine.gif" > 
+			<span class="am-navbar-label" style="color:rgb(137,137,137);">我的</span>
+		</a>
+	  </li>
+  </ul>
+  <img id="tixing" src="../Style/index-images/activity/99tixing.png" alt="满99" style="width:110px; position:fixed; right:18%; bottom:49px; z-index:800; display: none;"/>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$("#tixing").show();
+		$("#tixing").addClass("slideExpandUp");
+		$("#tixing").delay(4500).fadeOut();
+	})
+</script>

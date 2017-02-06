@@ -1,0 +1,1 @@
+{"0":"id","1":"userid","2":"shopid","3":"addtime","_autoinc":false,"_type":{"id":"int(11)","userid":"int(11)","shopid":"int(11)","addtime":"int(11)"}}

@@ -1,0 +1,33 @@
+<div>
+<div class="foot_nav">
+    	<ul >
+        	<li style="border-left:none;"><a href="{:U('Index/index')}">微商城</a></li>
+            <li><a href="{:U('book/good')}">水润万物</a></li>               
+			<li><a href="{:U('User/index')}">会员互动</a></li>			
+        </ul>
+    </div>
+<!--     <div class="foot" style="height:28px;line-height:28px;color: #ccc;background:#000;border-top:1px solid #ccc"> -->
+<!--    版权所有@VOLETA 技术支持：广企科技  -->
+<!-- <!--    <a href="http://m.kuaidi100.com" target="_blank" style="color: #666;">快递查询<br/> --> -->
+<!-- <!--    <a href="http://www.gzgqkj.com/"></a> --> -->
+<!--  </a> -->
+<!--  <div style="display: none;"><script src="http://s95.cnzz.com/stat.php?id=1253672834&web_id=1253672834" language="JavaScript"></script></div> -->
+<!--    </div> -->
+ </div>
+<script>
+var PINER = {
+    root: "__ROOT__",
+    uid: "<?php echo $visitor['id'];?>", 
+    async_sendmail: "<?php echo $async_sendmail;?>",
+    config: {
+        wall_distance: "<?php echo C('pin_wall_distance');?>",
+        wall_spage_max: "<?php echo C('pin_wall_spage_max');?>"
+    },
+    //URL
+    url: {}
+};
+//语言项目
+var lang = {};
+<volist name=":L('js_lang')" id="val">lang.{$key} = "{$val}";</volist>
+</script>
+<pin:load type="js" href="__STATIC__/js/jquery/plugins/jquery.tools.min.js,__STATIC__/js/jquery/plugins/jquery.masonry.js,__STATIC__/js/jquery/plugins/formvalidator.js,__STATIC__/js/fileuploader.js,__STATIC__/js/pinphp.js,__STATIC__/js/dialog.js,__STATIC__/js/wall.js,__STATIC__/js/item.js,__STATIC__/js/user.js,__STATIC__/js/album.js" />

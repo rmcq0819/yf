@@ -1,0 +1,1 @@
+{"0":"id","1":"bank","2":"img","_autoinc":true,"_pk":"id","_type":{"id":"int(11)","bank":"varchar(255)","img":"varchar(255)"}}

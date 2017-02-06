@@ -1,0 +1,1 @@
+{"0":"Id","1":"keyword","2":"num","_autoinc":true,"_pk":"Id","_type":{"Id":"int(11)","keyword":"varchar(255)","num":"int(11)"}}
